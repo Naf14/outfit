@@ -3,8 +3,9 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import { ArrowLeft, ArrowRight, ShoppingCart, CreditCard } from "lucide-react";
+import React from "react";
 
-const VirtualTryOn = () => {
+const App = () => {
   const categories = ["Full Body", "Top Body", "Head", "Pants", "Foot"];
   const products = [
     { name: "Basic T-Shirt", price: "₹450", image: "/shirt.png", size: "M", color: "White" },
@@ -60,5 +61,4 @@ const VirtualTryOn = () => {
   );
 };
 
-export default VirtualTryOn;
-
+export default App;
