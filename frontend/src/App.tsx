@@ -2,10 +2,15 @@ import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+<<<<<<< HEAD:frontend/src/App.jsx
 import { ArrowLeft, ArrowRight, ShoppingCart, CreditCard, ChevronDown } from "lucide-react";
 import { Select, SelectTrigger, SelectValue, SelectContent, SelectItem } from "@/components/ui/select";
+=======
+import { ArrowLeft, ArrowRight, ShoppingCart, CreditCard } from "lucide-react";
+import React from "react";
+>>>>>>> 03f8aa383df0517a4cabfa8ed28ca6d6209116a8:frontend/src/App.tsx
 
-const VirtualTryOn = () => {
+const App = () => {
   const categories = ["Full Body", "Top Body", "Head", "Pants", "Foot"];
   const products = [
     { id: "product-1", name: "Basic T-Shirt", price: "₹450", image: "/shirt.png", sizes: ["XS", "S", "M", "L", "XL", "XXL"], colors: ["White", "Black", "Blue"] },
@@ -93,5 +98,4 @@ const VirtualTryOn = () => {
   );
 };
 
-export default VirtualTryOn;
-
+export default App;
